@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.hello {
+    @apply flex justify-between flex-col-reverse;
+}
+
+.button {
+  @apply text-red-500 font-bold text-2xl bg-amber-500 p-4 rounded-4xl;
+}
+
+h1 {
+  color: red;
+}
