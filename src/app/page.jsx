@@ -1,13 +1,9 @@
-import Button from "@/components/Button";
-import Condicionales from "@/components/Condicionales";
-import RenderizadoListas from "@/components/RenderizadoListas";
+import RenderizadoComponentes from "@/components/RenderizadoComponentes";
 
 export default function Home() {
   return (
     <>
-      <Condicionales/>
-      <Button name="Juan"/>
-      <Button name="Enviar Formulario"/>
+      <RenderizadoComponentes/>
     </>
   );
 }
